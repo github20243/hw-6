@@ -1,0 +1,25 @@
+.formLabel {
+  color: #000000;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+}
+.formInput:focus {
+  border: 1px solid black;
+}
+.formInput.error {
+  border: 1px solid red;
+}
